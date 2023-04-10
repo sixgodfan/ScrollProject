@@ -40,7 +40,7 @@ def addchrome():
             cell = row[0]
             address = row[2]
             phrases = cell.split(" ")
-
+            #abc
             print("Mở chrome và add extension")
             web.get("chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html#")
 
